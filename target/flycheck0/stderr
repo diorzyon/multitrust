@@ -1,8 +1,0 @@
-warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
-note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
-note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
-note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
-error: package `derive_more-impl v1.0.0` cannot be built because it requires rustc 1.75.0 or newer, while the currently active rustc version is 1.74.0
-Either upgrade to rustc 1.75.0 or newer, or use
-cargo update derive_more-impl@1.0.0 --precise ver
-where `ver` is the latest version of `derive_more-impl` supporting rustc 1.74.0
